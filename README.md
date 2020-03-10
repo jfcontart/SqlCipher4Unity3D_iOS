@@ -1,13 +1,20 @@
 # SQLCipher4Unity3D_iOS
 
+## Binairies in repository
+
+We already built default binaries for some versions and pushed in this repository.
+
+## Shell script
+
 SQLCipher4Unity3D build bundle for iOS©. 
 
 Use with https://github.com/netpyoung/SQLCipher4Unity3D .
 
 You need :
-- be on iOS
-- install xcode
-- install xcode tools and active Command Lines Tools (in xcode preferences>Locations)
+- **Apple©** computer with **macOS 10.15**
+- install **Xcode 11.3**
+- install **Xcode tools** 
+- Active **Command Lines Tools** (in **Xcode Preferences>Locations**)
 
 ## Use the SQLCipherBuilt_iOS.sh
 
@@ -46,20 +53,15 @@ cd <this directory>
 ```
 All is automatic!
 
-## Copy in Unity3D project
+See https://www.zetetic.net/sqlcipher/sqlcipher-api/ for PRAGMA configurations.
 
-Copy in "iOS" folder in Unity3D, select file and check in "Inspector" :
+Copy in "**Plugins**" (create one if necessary) folder in Unity3D, select each file and check in "Inspector" :
 
-On select **platforms for plugin**
-- Set "Editor" - yes
-- Set "Standalone" - yes
+### iOS
 
-On tab **unity**
-- Set "CPU" - Any CPU
-- Set "OS" - OSX
+For the file **/Plugins/iOS/libsqlcipher.a**
 
-On tab **standalone**
-- Set "X64" - yes
+![IOS](./IOS_Inspector.png)
 
 ## LICENCES
 
