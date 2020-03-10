@@ -202,6 +202,15 @@ cd ..
 cd ..
 mkdir ./${VERSION}
 
+mkdir ./${VERSION}/armv7
+mkdir ./${VERSION}/armv7s
+mkdir ./${VERSION}/arm64
+mkdir ./${VERSION}/x86_64
+cp ./tmp/${VERSION}/sqlcipher-${VERSION}/armv7/libsqlcipher.a ./${VERSION}/armv7/libsqlcipher.a
+cp ./tmp/${VERSION}/sqlcipher-${VERSION}/armv7s/libsqlcipher.a ./${VERSION}/armv7s/libsqlcipher.a
+cp ./tmp/${VERSION}/sqlcipher-${VERSION}/arm64/libsqlcipher.a ./${VERSION}/arm64/libsqlcipher.a
+cp ./tmp/${VERSION}/sqlcipher-${VERSION}/x86_64/libsqlcipher.a ./${VERSION}/x86_64/libsqlcipher.a
+
 lipo -create -output "./${VERSION}/libsqlcipher.a" "./tmp/${VERSION}/sqlcipher-${VERSION}/armv7/libsqlcipher.a" "./tmp/${VERSION}/sqlcipher-${VERSION}/armv7s/libsqlcipher.a" "./tmp/${VERSION}/sqlcipher-${VERSION}/arm64/libsqlcipher.a" "./tmp/${VERSION}/sqlcipher-${VERSION}/x86_64/libsqlcipher.a"
 
 open ./${VERSION}
