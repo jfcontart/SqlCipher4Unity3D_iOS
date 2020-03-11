@@ -22,7 +22,7 @@ Use the SQLCipherBuilt_iOS.sh default
 
 ```
 cd <this directory>
-./SQLCipher_iOS.sh <version example:4.3.0>
+./SQLCipherBuilt_iOS.sh <version example:4.3.0>
 ```
 All is automatic!
 
@@ -68,7 +68,7 @@ For the file **/Plugins/iOS/libsqlcipher.a**
 | project                                                        | license                                                                      |
 |----------------------------------------------------------------|------------------------------------------------------------------------------|
 | this shell script                                        | is copyleft!
-| [SQLCipher4Unity3d](./)                                        | [MIT](https://github.com/robertohuertasm/SQLCipher4Unity3d/blob/master/LICENSE) |
+| [SQLCipher4Unity3d](https://github.com/robertohuertasm/SQLite4Unity3d)                                        | [MIT](https://github.com/robertohuertasm/SQLCipher4Unity3d/blob/master/LICENSE) |
 | [SQLCipher4Unity3d](https://github.com/codecoding/SQLCipher4Unity3d) | [MIT](https://github.com/codecoding/SQLCipher4Unity3d/blob/master/LICENSE)      |
 | [SQLCipher-net](https://github.com/praeclarum/SQLCipher-net)         | [MIT](https://github.com/praeclarum/SQLCipher-net/blob/master/LICENSE.txt)      |
 | [SQLCipher](SQLCipher370_banner.gif)                                 | [SQLCipher's License](https://SQLCipher.org/copyright.html)                        |
