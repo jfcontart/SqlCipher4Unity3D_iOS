@@ -1,8 +1,18 @@
 # SQLCipherBuilt
 
+## Archives available
+
+see https://github.com/sqlcipher/sqlcipher/tags
+
+# Run
+
 - open terminal 
 - go to this folder 
 - run : 
+
+```
+./SQLCipherBuilt_iOS.sh 4.4.0
+```
 
 ```
 ./SQLCipherBuilt_iOS.sh 4.3.0
