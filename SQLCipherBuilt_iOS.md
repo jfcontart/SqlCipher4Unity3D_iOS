@@ -11,6 +11,22 @@ see https://github.com/sqlcipher/sqlcipher/tags
 - run : 
 
 ```
+./SQLCipherBuilt_Apple.sh 4.4.3
+```
+
+```
+./SQLCipherBuilt_Apple.sh 4.4.2
+```
+
+```
+./SQLCipherBuilt_Apple.sh 4.4.1
+```
+
+```
+./SQLCipherBuilt_Apple.sh 4.4.0
+```
+
+```
 ./SQLCipherBuilt_iOS.sh 4.4.0
 ```
 
